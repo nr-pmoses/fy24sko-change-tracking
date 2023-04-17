@@ -12,7 +12,7 @@ services:
       - my-network
     environment:
       NEW_RELIC_LICENSE_KEY: ${NR_LICENSE_KEY?err}
-      NEW_RELIC_APP_NAME: ${NR_APP_NAME?err}
+      NEW_RELIC_APP_NAME: pmosesGithubApp
       NEW_RELIC_APPLICATION_LOGGING_FORWARDING_ENABLED: "true"
 
   load:
